@@ -6,7 +6,7 @@ The code of MOLGAECL: Molecular Graph Contrastive Learning via Graph Auto-Encode
 - 其他依赖：`numpy`, `pandas`, `tqdm`, `joblib`
 - 通过pip install -r requirements.txt
 ### 运行
-预训练
+1. 预训练
 python molgaecl.py
-微调：
-python 
+2. 微调：
+python finetune/2finetune_classify_ddi.py 
